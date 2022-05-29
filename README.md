@@ -1,4 +1,4 @@
-# readme
+# Readme
 
 This repository is where I put my UPPAAL model of Non preemtive protocol (NPP)
 
@@ -21,7 +21,7 @@ Some aspect related to the model
 - Have fun with the simulation!!!
 
 
-## Copy right
+## Copyright
 -This model is fully design by me and you are allowed to copy it and do what ever you want
 
 
