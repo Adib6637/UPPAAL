@@ -1,6 +1,6 @@
 # Readme
 
-This repository is where I put my UPPAAL model of Non preemtive protocol (NPP)
+This repository is where I put my UPPAAL model of Non preemtive protocol (NPP).
 
 
 ## General Information
@@ -13,6 +13,8 @@ Some aspect related to the model
     - Interrupt is enabled bz default but can be change in declaration file inside the UPPAL model
 3. NPP integration
     - The model is by default integrated with NPP but can be disable in declaration file inside the UPPAL model
+4. Number of task
+    - By defult, number of task is 3 and can be increased. If you want to add more task, make sure the arrival time, completion time and the nominal priority is assign properly to make sure all the task scheduable!!!.
 
 ## Simulation
 
@@ -22,7 +24,4 @@ Some aspect related to the model
 
 
 ## Copyright
-- This model is fully design by me and you are allowed to copy it and do what ever you want
-
-
-
+- This model is fully design by me and you are allowed to copy it.
