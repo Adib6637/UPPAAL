@@ -10,16 +10,16 @@ Some aspect related to the model
 1. Notation
     - All notation are decribed in the the declaration file inside the UPPAL model
 2. Interupt Mode
-    - Interrupt is enabled bz default but can be change in declaration file inside the UPPAL model
+    - Interrupt is enabled by default but can be change in declaration file inside the UPPAL model
 3. NPP integration
     - The model is by default integrated with NPP but can be disable in declaration file inside the UPPAL model
 4. Number of task
-    - By defult, number of task is 3 and can be increased. If you want to add more task, make sure the arrival time, completion time and the nominal priority is assign properly to make sure all the task scheduable!!!.
+    - By defult, number of task is 3 and can be increased. If you want to add more task, make sure the arrival time, completion time and the nominal priority is assign properly to make sure all the task schedulable!!!.
 
 ## Simulation
 
 - You can try to play with the simulation (by disabling or eanabling the interrrupt and NPP). 
-- Compre the number of fail of each task and longest blocking time expereience by a task in all possible mode.
+- Compare the number of fail of each task and longest blocking time expereience by a task in all possible mode.
 - Have fun with the simulation!!!
 
 
