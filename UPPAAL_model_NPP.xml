@@ -7,7 +7,7 @@
 int Pmax ;//maximum priority among ready task
 const int maxPh = 5;//maximum dynamic priority arose
 int running_p = 0;//priority of a task that currently ran
-int interupt_enable = 1; //true enable preemtion
+int interupt_enable = 1; //true to enable preemtion
 const int dynamic_p_enable = 1;//true to enable NPP
 
 clock timer;
