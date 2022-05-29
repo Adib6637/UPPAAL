@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE nta PUBLIC '-//Uppaal Team//DTD Flat System 1.1//EN' 'http://www.it.uu.se/research/group/darts/uppaal/flat-1_2.dtd'>
 <nta>
-	<declaration>// Place global declarations here.
+	<declaration>%Model for Non-preeemtive protocol
+%Modeled by Sheikh Muhammad Adib Bin Sh Abu Bakar
+%Modelling year: 2022
 
 
 int Pmax ;//maximum priority among ready task
@@ -299,12 +301,13 @@ int pmax(int p1, int texe1,int p2, int texe2,int p3, int texe3)
 			<nail x="119" y="-51"/>
 		</transition>
 	</template>
-	<system>// Place template instantiations here.
+	<system>
 task1 =task(phi_1 ,T_1 ,cycle_1 ,P_1,C_1,texe_1, tenterCS_1, ta_1,delta_1,fail_1,Bi_1,Bimax_1,done_cs_1,p_1,cs_complete_1 ,currently_use_cs_1) ;
 task2 =task(phi_2 ,T_2 ,cycle_2 ,P_2,C_2,texe_2, tenterCS_2, ta_2,delta_2,fail_2,Bi_2,Bimax_2,done_cs_2,p_2,cs_complete_2 ,currently_use_cs_2) ;
 task3 =task(phi_3 ,T_3 ,cycle_3 ,P_3,C_3,texe_3, tenterCS_3, ta_3,delta_3,fail_3,Bi_3,Bimax_3,done_cs_3,p_3,cs_complete_3 ,currently_use_cs_3) ;
 set =set_p_max(texe_1, p_1,texe_2, p_2,texe_3, p_3);
-// List one or more processes to be composed into a system.
+
+
 system scheduler,task1,task2,task3, resource, timeUnit,  set;
     </system>
 	<queries>
