@@ -22,7 +22,7 @@ Some aspect related to the model
 
 
 ## Copyright
--This model is fully design by me and you are allowed to copy it and do what ever you want
+- This model is fully design by me and you are allowed to copy it and do what ever you want
 
 
 
